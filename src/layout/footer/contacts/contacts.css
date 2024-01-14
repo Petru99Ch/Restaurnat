@@ -1,0 +1,22 @@
+.footer-head{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+
+    border-bottom:  1px solid #333;
+}
+
+.footer-head h4, 
+.footer-head p {
+    margin: 0;
+}
+
+.footer-head .find,.footer-head .call, .footer-head .mail {
+    display: flex;
+    align-items: center;
+}
+
+.footer-head img {
+    width:  2em;
+    padding: 10px;    
+}

@@ -1,0 +1,172 @@
+.links {
+    color: #fff;
+    padding-top: 2em;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.links .links-left {
+    width: 30%;
+}
+
+.links .links-left p {
+    color: #666;
+}
+
+
+.links .links-left #rest {
+    width:70% ;
+    border-radius: 20px;
+}
+
+.links .links-left .social img{
+     width: 40px;
+     height: 40px;
+     
+     border-radius: 100%;
+     padding: 1em;
+
+}
+
+.links .links-left .social a:first-child img{
+    background-color: #3b5998;
+}
+
+.links .links-left .social a:nth-child(2) img{
+    background-color: violet;
+}
+
+.links .links-left .social a:nth-child(3)  img{
+    background-color: rgb(223, 46, 46);
+}
+
+
+
+.links .links-left .social a {  
+    margin-right: 1em;
+}
+
+/* Links center */
+
+.links .links-center{
+    width: 30%;
+}
+
+.links .links-center h4 {
+    padding-bottom: 1em ;
+    display: inline-block;
+
+    border-bottom: 2px solid darkorange;
+}
+
+.links .links-center .list {
+    display: flex;
+    justify-content: space-between;
+
+}
+.links .links-center .list  ul{
+    padding: 0;
+    margin: 0;
+}
+
+.links .links-center .list li {    
+    list-style: none;
+    padding: 1em 0;
+    
+}
+
+.links .links-center .list a {
+    color:#666;
+}
+
+.links .links-center .list a:hover {
+    color: darkorange
+}
+
+/* Links - right  */
+
+.links .links-right {
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.links .links-right h4 {
+    padding-bottom: 1em ;
+    display: inline-block;  
+    border-bottom: 2px solid darkorange;
+}
+
+.links .links-right p { 
+    color:#666;
+}
+
+.links .links-right form  {
+    display: flex;
+}
+
+.links .links-right form input {
+    padding: 1em;
+    outline: none;
+    
+    border: none;
+    background-color: #2e2e2e;
+    color: #fff;
+}
+
+.links .links-right form button{
+  height: 100%;
+  
+  background-color: darkorange;
+  padding: 0 1em;
+  border: none;
+  cursor: pointer;
+}
+
+.links .links-right form button:hover {
+    background-color: orange;
+}
+
+/* Links-footer */
+
+.links-footer{
+    display: flex;
+    color: #666;
+    background-color: #333;
+    justify-content: space-between;
+    padding: 0 1em;
+    margin: 2em 0;
+    position: relative;
+    
+}
+
+.links-footer ul {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.links-footer ul li {
+    list-style: none;
+    
+}
+
+.links-footer ul li a { 
+    color: #666;
+}
+
+.links-footer ul li a:hover{
+    color: darkorange;
+}
+
+.links-footer p a {
+    color: orange;
+}
+
+.links-footer p a:hover {
+    color: #fff;
+    
+}
