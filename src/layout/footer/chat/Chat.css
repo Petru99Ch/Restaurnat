@@ -1,0 +1,44 @@
+.chat {
+    
+    
+    position: fixed;
+    right: 5vw;
+    bottom: 5vw;   
+    
+} 
+.chat ul {
+    display: none;
+   
+}
+.chat ul.show {
+    display: block;
+    transition: 1s;
+}
+
+.chat ul,
+.chat button {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+    text-align: center;
+}
+.chat button {
+    background-color: transparent;
+    border: none;
+}
+
+.chat a, .chat button{
+     display: inline-block;   
+     color: #fff;  
+    background-color: #9cce5f;    
+    width: 3rem;
+    height: 3rem; 
+    line-height: 3rem;    
+    margin-bottom: .5em;    
+    font-size: 1.5rem;
+    border-radius: 100%;
+    cursor: pointer; 
+    
+}
+
