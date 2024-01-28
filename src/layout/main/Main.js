@@ -1,8 +1,9 @@
+import Menu from "../restaurant/Menu"
 import "./Main.css"
-const Main = ()=>{
+const Main = (props )=>{
     return(
         <main className="main">
-
+            {props.children}
         </main>
     )
 }
