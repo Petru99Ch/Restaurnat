@@ -19,7 +19,7 @@
 .wrapper button{
     box-sizing: content-box;
     
-    margin-top: 50px;
+    
     padding: 1em;
     background-color: darkorange;
     border: none;
@@ -27,6 +27,8 @@
     font-family: sans-serif;
     font-weight: 700;
     color: #fff;
+
+    
 }
 
 .menu li { 
@@ -36,6 +38,25 @@
     display: flex;
     justify-content: space-around;
     width: 40vw;
+    align-items: center;
+    padding-top: 1em;
+}
+
+.wrapper p { 
+    box-sizing: content-box;
+    height: 1.5em;
+    color: #fff;
+}
+
+.button input { 
+    height: 1.5em;
+    border: none;
+    outline: none;
+    background-color: #444;
+    padding: .5em;
+    border-radius: 10px;
+    color: #fff;
+
 }
 
 .Desc::after {

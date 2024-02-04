@@ -19,13 +19,18 @@ let menuArrData = [
 ]
 
 
+
+
+
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App>
       <Header />
       <Main>
-        <Menu data={menuArrData}/>        
+          <Menu data={menuArrData}/>        
       </Main>
       <Footer />
     </App>
