@@ -5,10 +5,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Header from './layout//header/Header';
 import Footer from './layout/footer/Footer';
-import Main from './layout/main/Main';
-import Menu from './layout/restaurant/Menu';
+
 
 import Food from "./layout/restaurant/Food"
+import Order from "./layout/restaurant/Order"
 
 let menuArrData = [
   new Food(1, "Pizza", "https://www.simplyrecipes.com/thmb/pjYMLcsKHkr8D8tYixmaFNxppPw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__09__easy-pepperoni-pizza-lead-3-8f256746d649404baa36a44d271329bc.jpg", 100 ),
@@ -18,7 +18,9 @@ let menuArrData = [
 
 ]
 
-
+const orderData = new Order([
+  {itemId: 1, quantity : 1}
+])
 
 
 
@@ -28,10 +30,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App>
-      <Header />
-      <Main>
-          <Menu data={menuArrData}/>        
-      </Main>
+      <Header orderData = {orderData } menuArrData = {menuArrData}/>
+      
       <Footer />
     </App>
   </React.StrictMode>

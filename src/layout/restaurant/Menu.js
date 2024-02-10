@@ -6,8 +6,8 @@ import { useState } from "react"
 // let search = document.getElementById("input").value
 
 
-const Menu = (props) =>{
-    let data = props.data
+const Menu = ({data, order, setOrder}) =>{
+    
     
 
     let [itemsData, setItemsData] = useState(data) 
@@ -72,7 +72,7 @@ const Menu = (props) =>{
                 <p id="search" className="textSearch"></p>
 
                 <ul className="menu">
-                {itemsData.map(itemData => <Item key ={itemData.id} data = {itemData} />)}   
+                {itemsData.map(itemData => <Item key ={itemData.id} data = {itemData} order={order} setOrder={setOrder} />)}   
                     
                 </ul>
             </div>

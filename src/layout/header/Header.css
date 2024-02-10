@@ -3,6 +3,7 @@
     justify-content: space-around;
     padding: .5em;
     background-color: #333;
+    align-items: center;
 }
 
 .nav-bar ul {
